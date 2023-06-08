@@ -1,3 +1,24 @@
 .todo{
     /* background-color: red; */
 }
+
+.password{
+    border: 2px solid black;
+    width: fit-content
+}
+input[type='password']:focus, input[type='password']{
+    outline: none;
+    border: none;
+}
+
+input[type="text"]{
+    border: none;
+}
+input[type='text']:focus{
+    outline: none;
+}
+
+img{
+    width: 15px;
+    height: 15px;
+}
